@@ -5,4 +5,5 @@ export const defaultConfig: Config = {
   match: "https://platform.openai.com/docs/guides/prompt-engineering/**",
   maxPagesToCrawl: 200,
   outputFileName: "output.json",
+  maxTokens: 2000000,
 };
